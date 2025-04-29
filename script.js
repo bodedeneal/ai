@@ -16,7 +16,8 @@ function generateResponse(input) {
     let responses = {
         "hello": "Hi there! How can I assist you?",
         "how are you": "I'm just a chatbot, but I'm here to help!",
-        "bye": "Goodbye! Have a great day!"
+        "bye": "Goodbye! Have a great day!",
+        "1+1": "1+1=2"
     };
 
     return responses[input.toLowerCase()] || "I'm not sure how to respond to that.";
