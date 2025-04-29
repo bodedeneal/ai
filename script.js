@@ -17,7 +17,13 @@ function generateResponse(input) {
         "hello": "Hi there! How can I assist you?",
         "how are you": "I'm just a chatbot, but I'm here to help!",
         "bye": "Goodbye! Have a great day!",
-        "1+1": "1+1=2"
+        "1+1": "1+1=2",
+        "gay": "No, you gay!",
+        "what is your name?": "Lebron James",
+        "what can you do": "More than You lazy scum!",
+        "where are you from": "Github",
+        "are you a human or a robot?": "What do you think?"
+        
     };
 
     return responses[input.toLowerCase()] || "I'm not sure how to respond to that.";
